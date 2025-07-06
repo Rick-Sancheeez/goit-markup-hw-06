@@ -26,6 +26,15 @@
         </ul>
     </nav>
 
+
+    <button class="menu-button" type="button">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.599609 2.00078C0.599609 1.68252 0.726038 1.3773 0.951081 1.15225C1.17612 0.92721 1.48135 0.800781 1.79961 0.800781H16.1996C16.5179 0.800781 16.8231 0.92721 17.0481 1.15225C17.2732 1.3773 17.3996 1.68252 17.3996 2.00078C17.3996 2.31904 17.2732 2.62427 17.0481 2.84931C16.8231 3.07435 16.5179 3.20078 16.1996 3.20078H1.79961C1.48135 3.20078 1.17612 3.07435 0.951081 2.84931C0.726038 2.62427 0.599609 2.31904 0.599609 2.00078Z" fill="#2F2F37" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.599609 8.00078C0.599609 7.68252 0.726038 7.3773 0.951081 7.15225C1.17612 6.92721 1.48135 6.80078 1.79961 6.80078H16.1996C16.5179 6.80078 16.8231 6.92721 17.0481 7.15225C17.2732 7.3773 17.3996 7.68252 17.3996 8.00078C17.3996 8.31904 17.2732 8.62427 17.0481 8.84931C16.8231 9.07435 16.5179 9.20078 16.1996 9.20078H1.79961C1.48135 9.20078 1.17612 9.07435 0.951081 8.84931C0.726038 8.62427 0.599609 8.31904 0.599609 8.00078Z" fill="#2F2F37" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.599609 14.0008C0.599609 13.6825 0.726038 13.3773 0.951081 13.1523C1.17612 12.9272 1.48135 12.8008 1.79961 12.8008H16.1996C16.5179 12.8008 16.8231 12.9272 17.0481 13.1523C17.2732 13.3773 17.3996 13.6825 17.3996 14.0008C17.3996 14.319 17.2732 14.6243 17.0481 14.8493C16.8231 15.0744 16.5179 15.2008 16.1996 15.2008H1.79961C1.48135 15.2008 1.17612 15.0744 0.951081 14.8493C0.726038 14.6243 0.599609 14.319 0.599609 14.0008Z" fill="#2F2F37" />
+        </svg>
+    </button>
+
     <address class="address">
         <ul class="ul-list">
             <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -34,6 +43,48 @@
     </address>
     
     </div>
+
+    <div class="menu-overlay is-open">
+        <div class="menu">
+
+        <button class="button" type="button">
+            <svg class="icon" width="8" height="8"><use href="./images/icons.svg#icon-Vector"></use></svg>
+        </button>
+
+        <nav class="menu-navigation">
+            <ul class="un-list">
+                <li><a class="link current" href="./index.html">Studio</a></li>
+                <li><a class="link" href="">Portfolio</a></li>
+                <li><a class="link" href="">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <address class="menu-address">
+            <ul class="ul-list">
+                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </ul>
+        </address>
+
+        <ul class="social-links">
+            <li class="list">
+                <a href="" class="link"><svg class="icon" width="16" height="16"><use href="./images/icons.svg#icon-instagram-2"></use></svg></a>
+            </li>
+            <li class="list">
+                <a href="" class="link"><svg class="icon" width="16" height="16"><use href="./images/icons.svg#icon-twitter-1"></use></svg></a>
+            </li>
+            <li class="list">
+                <a href="" class="link"><svg class="icon" width="16" height="16"><use href="./images/icons.svg#icon-facebook-1"></use></svg></a>
+            </li>
+            <li class="list">
+                <a href="" class="link"><svg class="icon" width="16" height="16"><use href="./images/icons.svg#icon-linkedin-1"></use></svg></a>
+            </li>
+        </ul>
+
+        </div>
+
+    </div>
+
     </header>
     <main>
 
@@ -87,7 +138,7 @@
             <h2 class="title">Our Team</h2>
             <ul class="list">
                 <li class="team-member">
-                    <img class="li-image" src="./images/img-3.jpg" alt="Product Designer" width="264" height="260" />
+                    <img class="li-image" src="./images/img-3.jpg" srcset="./images/Team-1x/img-3.jpg 1x, ./images/img-3.jpg 2x" alt="Product Designer" width="264" height="260" />
                     <div class="container">
                         <h3 class="title-third">Mark Guerrero</h3>
                         <p class="li-paragraph">Product Designer</p>
@@ -108,7 +159,7 @@
                     </div>
                 </li>
                 <li class="team-member">
-                    <img class="li-image" src="./images/img-2.jpg" alt="Frontend Developer" width="264" height="260" />
+                    <img class="li-image" src="./images/img-2.jpg" srcset="./images/Team-1x/img-2.jpg 1x, ./images/img-2.jpg 2x" alt="Frontend Developer" width="264" height="260" />
                     <div class="container">
                         <h3 class="title-third">Tom Ford</h3>
                         <p class="li-paragraph">Frontend Developer</p>
@@ -129,7 +180,7 @@
                     </div>
                 </li>
                 <li class="team-member">
-                    <img class="li-image" src="./images/img-1.jpg" alt="Marketing" width="264" height="260" />
+                    <img class="li-image" src="./images/img-1.jpg" srcset="./images/Team-1x/img-1.jpg 1x, ./images/img-1.jpg 2x" alt="Marketing" width="264" height="260" />
                     <div class="container">
                         <h3 class="title-third">Camila Garcia</h3>
                         <p class="li-paragraph">Marketing</p>
@@ -150,7 +201,7 @@
                     </div>
                 </li>
                 <li class="team-member">
-                    <img class="li-image" src="./images/img.jpg" alt="UI Designer" width="264" height="260" />
+                    <img class="li-image" src="./images/img.jpg" srcset="./images/Team-1x/img.jpg 1x, ./images/img.jpg 2x" alt="UI Designer" width="264" height="260" />
                     <div class="container">
                         <h3 class="title-third">Daniel Wilson</h3>
                         <p class="li-paragraph">UI Designer</p>
@@ -180,7 +231,7 @@
             <ul class="ul-list">
                 <li class="list">
                     <div class="img-div">
-                        <img class="li-image" src="./images/portfolio/img-5.jpg" alt="App" width="360" height="300" />
+                        <img class="li-image" src="./images/portfolio/img-5.jpg" srcset="./images/portfolio-1x/img-5.jpg 1x, ./images/portfolio/img-5.jpg 2x" alt="App" width="360" height="300" />
                         <p class="paragraph">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                         </p>
@@ -195,7 +246,7 @@
 
                 <li class="list">
                     <div class="img-div">
-                        <img class="li-image" src="./images/portfolio/img-4.jpg" alt="Marketing" width="360" height="300" />
+                        <img class="li-image" src="./images/portfolio/img-4.jpg" srcset="./images/portfolio-1x/img-4.jpg 1x, ./images/portfolio/img-4.jpg 2x" alt="Marketing" width="360" height="300" />
                         <p class="paragraph">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                         </p>
@@ -210,7 +261,7 @@
 
                 <li class="list">
                     <div class="img-div">
-                        <img class="li-image" src="./images/portfolio/img-3.jpg" alt="App" width="360" height="300" />
+                        <img class="li-image" src="./images/portfolio/img-3.jpg" srcset="./images/portfolio-1x/img-3.jpg 1x, ./images/portfolio/img-3.jpg 2x" alt="App" width="360" height="300" />
                         <p class="paragraph">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                         </p>
@@ -224,7 +275,7 @@
 
                 <li class="list">
                     <div class="img-div">
-                        <img class="li-image" src="./images/portfolio/img-2.jpg" alt="Marketing" width="360" height="300" />
+                        <img class="li-image" src="./images/portfolio/img-2.jpg" srcset="./images/portfolio-1x/img-2.jpg 1x, ./images/portfolio/img-2.jpg 2x" alt="Marketing" width="360" height="300" />
                         <p class="paragraph">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                         </p>
@@ -238,7 +289,7 @@
 
                 <li class="list">
                     <div class="img-div">
-                        <img class="li-image" src="./images/portfolio/img-1.jpg" alt="Design" width="360" height="300" />
+                        <img class="li-image" src="./images/portfolio/img-1.jpg" srcset="./images/portfolio-1x/img-1.jpg 1x, ./images/portfolio/img-1.jpg 2x" alt="Design" width="360" height="300" />
                         <p class="paragraph">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                         </p>
@@ -254,7 +305,7 @@
 
                 <li class="list">
                     <div class="img-div">
-                        <img class="li-image" src="./images/portfolio/img.jpg" alt="Marketing" width="360" height="300" />
+                        <img class="li-image" src="./images/portfolio/img.jpg" srcset="./images/portfolio-1x/img.jpg 1x, ./images/portfolio/img.jpg 2x" alt="Marketing" width="360" height="300" />
                         <p class="paragraph">
                             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                         </p>
@@ -319,6 +370,9 @@
 
     </footer>
    
+    
+
+
     <div class="modal-overlay is-open">
         <div class="modal">
             
@@ -422,8 +476,7 @@
                             <svg class="icon-check" width="10" height="8">
                                 <use href="./images/icons.svg#icon-Vector-4"></use>
                             </svg>
-                        </span>
-                        I accept the terms and conditions of the <a class="link" href="">Privacy Policy</a>
+                        </span>I accept the terms and conditions of the <a class="link" href="">Privacy Policy</a>
                     </label>
                 </div>
                 
